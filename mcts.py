@@ -85,7 +85,7 @@ class MCTS:
             self.moves.append(a)
             self.N[self.next_state][self.next_move] = 0
             self.W[self.next_state][self.next_move] = 0
-            self.P[self.next_state][self.next_move] = 1 # TODO: replace with predicted probability from network
+            self.P[self.next_state][self.next_move] = 1
             self.Q[self.next_state][self.next_move] = 0
             self.next_move += 1
         if parent != -1:
