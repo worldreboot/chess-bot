@@ -5,3 +5,5 @@ NOTE: In order to run the play.py program to play against a model, a model file 
 
 Install required libraries using:
 pip install -r requirements.txt
+
+To start training, run any of the three train programs.
